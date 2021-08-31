@@ -1,7 +1,6 @@
 import pandas as pd
 
 df_demo = pd.read_excel("AgeStructure.xlsx", index_col = 0)
-
 show_county = pd.read_excel("AgeStructure.xlsx", converters={'COUNTRY': str.strip})
 show_countyw = show_county['COUNTRY']
 
@@ -13,8 +12,6 @@ cols = list(df_demo)
 cols.insert(0, cols.pop(cols.index('COUNTRY')))
 
 df_mix = df_demo.loc[:, cols]
-df_mix
-
 df_combinedN = df_mix.sort_values(by='0-14 years old %', ascending=False) # sorted float
 
 # Sort Data
