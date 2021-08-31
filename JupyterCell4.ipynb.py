@@ -1,5 +1,4 @@
 import pandas as pd
-import re
 
 df_demo = pd.read_excel("AgeStructure.xlsx", index_col = 0)
 
