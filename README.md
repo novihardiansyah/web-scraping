@@ -1,2 +1,2 @@
 # web-scraping
-Web Scraping Python: Illustration with CIA World Factbook
+Web Scraping Python: Case Study for CIA World Factbook
