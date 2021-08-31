@@ -6,5 +6,7 @@ https://www.cia.gov/the-world-factbook/
 # What You Will Learn
 Programming Languages & Modules :
 
-
 Jupyter | Python
+
+# Perhatian
+Diharuskan memakai Jupyter dengan format file .ipynb
